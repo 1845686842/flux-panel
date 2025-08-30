@@ -8,10 +8,10 @@ export LC_ALL=C
 
 
 # 全局下载地址配置
-DOCKER_COMPOSEV4_URL="https://raw.githubusercontent.com/BrunuhVille/flux-panel/refs/heads/main/docker-compose-v4.yml"
-DOCKER_COMPOSEV6_URL="https://raw.githubusercontent.com/BrunuhVille/flux-panel/refs/heads/main/docker-compose-v6.yml"
-GOST_SQL_URL="https://raw.githubusercontent.com/BrunuhVille/flux-panel/refs/heads/main/gost.sql"
-PROXY_SH_URL="https://raw.githubusercontent.com/BrunuhVille/flux-panel/refs/heads/main/proxy.sh"
+DOCKER_COMPOSEV4_URL="https://raw.githubusercontent.com/1845686842/flux-panel/refs/heads/main/docker-compose-v4.yml"
+DOCKER_COMPOSEV6_URL="https://raw.githubusercontent.com/1845686842/flux-panel/refs/heads/main/docker-compose-v6.yml"
+GOST_SQL_URL="https://raw.githubusercontent.com/1845686842/flux-panel/refs/heads/main/gost.sql"
+PROXY_SH_URL="https://raw.githubusercontent.com/1845686842/flux-panel/refs/heads/main/proxy.sh"
 
 COUNTRY=$(curl -s https://ipinfo.io/country)
 if [ "$COUNTRY" = "CN" ]; then
@@ -231,7 +231,7 @@ EOF
   echo "🎉 部署完成"
   echo "🌐 访问地址: http://服务器IP:$FRONTEND_PORT"
   echo "📖 部署完成后请阅读下使用文档。不要上去就是一顿操作"
-  echo "📚 文档地址: https://brunuhville.github.io/flux-panel/guide.html"
+  echo "📚 文档地址: https://1845686842.github.io/flux-panel/guide.html"
   echo "💡 默认管理员账号: admin_user / admin_user"
   echo "⚠️  登录后请立即修改默认密码！"
 
