@@ -12,7 +12,7 @@
 
 ---
 ## 文档地址
-- [文档地址](https://brunuhville.github.io/flux-panel)
+- [文档地址](https://1845686842.github.io/flux-panel)
 ---
 ## 特性
 
@@ -84,13 +84,13 @@
 
 面板端：
 ```bash
-curl -L https://raw.githubusercontent.com/BrunuhVille/flux-panel/refs/heads/main/panel_install.sh -o panel_install.sh && chmod +x panel_install.sh && ./panel_install.sh
+curl -L https://raw.githubusercontent.com/1845686842/flux-panel/refs/heads/main/panel_install.sh -o panel_install.sh && chmod +x panel_install.sh && ./panel_install.sh
 
 ```
 
 节点端：
 ```bash
-curl -L https://raw.githubusercontent.com/BrunuhVille/flux-panel/refs/heads/main/install.sh -o install.sh && chmod +x install.sh && ./install.sh
+curl -L https://raw.githubusercontent.com/1845686842/flux-panel/refs/heads/main/install.sh -o install.sh && chmod +x install.sh && ./install.sh
 
 ```
 
